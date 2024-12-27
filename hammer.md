@@ -90,7 +90,7 @@ If the limit is exceeded, the page displays a "rate limit exceeded" message.
 
 ![Screenshot 2024-12-27 143646](https://github.com/user-attachments/assets/77d98f39-a6ba-479a-856a-25828de0a525)
 
-Through research on ![Hacktricks](https://hacktricks.boitatech.com.br/pentesting-web/rate-limit-bypass), we discover that rate limits can be bypassed by modifying the X-Forwarded-For header to spoof different IPs.
+Through research on [Hacktricks](https://hacktricks.boitatech.com.br/pentesting-web/rate-limit-bypass), we discover that rate limits can be bypassed by modifying the X-Forwarded-For header to spoof different IPs.
 
 ![Screenshot 2024-12-27 144621](https://github.com/user-attachments/assets/41373c04-a6b3-46b1-9559-5a98b5c73e5b)
 
