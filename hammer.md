@@ -90,7 +90,7 @@ If the limit is exceeded, the page displays a "rate limit exceeded" message.
 
 ![Screenshot 2024-12-27 143646](https://github.com/user-attachments/assets/77d98f39-a6ba-479a-856a-25828de0a525)
 
-Through research (see ![Hacktricks](https://hacktricks.boitatech.com.br/pentesting-web/rate-limit-bypass)), we discover that rate limits can be bypassed by modifying the X-Forwarded-For header to spoof different IPs.
+Through research on ![Hacktricks](https://hacktricks.boitatech.com.br/pentesting-web/rate-limit-bypass), we discover that rate limits can be bypassed by modifying the X-Forwarded-For header to spoof different IPs.
 
 ![Screenshot 2024-12-27 144621](https://github.com/user-attachments/assets/41373c04-a6b3-46b1-9559-5a98b5c73e5b)
 
@@ -156,7 +156,7 @@ Modify the JWT payload:
   1. Update the kid to /var/www/html/188ade1.key.
   2. Change the role from "user" to "admin."
   3. Sign the token using the contents of 188ade1.key.
-Copy the new encoded JWT.
+  4. Copy the new encoded JWT.
 
 ![Screenshot 2024-12-27 150558](https://github.com/user-attachments/assets/121e52d6-22dc-41e0-bc2f-6975a798ae30)
 
